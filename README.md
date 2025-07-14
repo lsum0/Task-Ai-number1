@@ -73,13 +73,13 @@ The following files were utilized during testing:
 Below are some output examples of model predictions on test images:
 
 ### 🖼️ Example 1: GPU  
-![GPU Prediction](assets/outputs/gpu_result.png)
+![GPU Prediction](GPU.jpeg)
 
 ### 🖼️ Example 2: Arduino  
-![Arduino Prediction](assets/outputs/arduino_result.png)
+![Arduino Prediction](CPU.jpeg)
 
 ### 🖼️ Example 3: Power Supply  
-![Power Supply Prediction](assets/outputs/power_result.png)
+![Power Supply Prediction](powersuply.jpeg)
 
 >  Make sure to upload your output images inside the folder: `assets/outputs/`
 
