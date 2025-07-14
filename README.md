@@ -44,4 +44,92 @@ The model was tested using a Python notebook in **Google Colab**. The testing pr
 
 ### Prediction Mapping
 Predictions were mapped using the label index file `labels.txt` as follows:
+0 RAM
+1 CPU
+2 Arduino
+3 GPU
+4 Power Supply
+
+
+
+### 🟢 Output Evaluation
+- The model returned probability scores for each class.
+- The class with the highest probability was selected as the final prediction.
+
+---
+
+## 5. Files Uploaded to Google Colab
+
+The following files were utilized during testing:
+
+- `keras_model.h5` – the trained neural network model  
+- `labels.txt` – text file containing label indices and class names  
+- `test_images/` – directory containing example images for evaluation (uploaded manually)
+
+---
+
+## 6. Sample Output Images
+
+Below are some output examples of model predictions on test images:
+
+### 🖼️ Example 1: GPU  
+![GPU Prediction](assets/outputs/gpu_result.png)
+
+### 🖼️ Example 2: Arduino  
+![Arduino Prediction](assets/outputs/arduino_result.png)
+
+### 🖼️ Example 3: Power Supply  
+![Power Supply Prediction](assets/outputs/power_result.png)
+
+> 📌 Make sure to upload your output images inside the folder: `assets/outputs/`
+
+---
+
+## 7. Challenges Faced
+
+- **Image Quality Sensitivity**: Prediction accuracy varied depending on lighting and background conditions.  
+- **Input Shape Mismatch**: The input image had to be resized to 224x224 pixels to match the model’s expected input shape.  
+- **Colab File Persistence**: Uploaded files are not saved between sessions unless mounted via Google Drive.  
+- **Label Matching**: Ensuring label indexes aligned correctly with class names.  
+
+---
+
+## 8. Future Improvements
+
+- Expand dataset with more varied images to improve model robustness.  
+- Integrate Google Drive for persistent storage in Colab.  
+- Deploy the model using a web interface with TensorFlow.js.  
+- Add confidence thresholding and error logging during prediction.  
+
+---
+
+## 9. Sample Inference Code in Colab
+
+Here is an example code snippet used in Colab to test the uploaded model on a test image:
+
+```python
+from keras.models import load_model
+from PIL import Image
+import numpy as np
+
+# Load model and labels
+model = load_model('keras_model.h5')
+labels = open('labels.txt', 'r').read().splitlines()
+
+# Load and preprocess image
+img = Image.open('test_images/example.jpg').resize((224, 224))
+img_array = np.asarray(img).astype(np.float32) / 255.0
+img_array = np.expand_dims(img_array, axis=0)
+
+# Predict
+prediction = model.predict(img_array)
+predicted_index = np.argmax(prediction)
+predicted_label = labels[predicted_index]
+
+print(f"Predicted class: {predicted_label}")
+
+
+
+
+
 
