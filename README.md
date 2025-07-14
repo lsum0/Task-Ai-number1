@@ -81,7 +81,7 @@ Below are some output examples of model predictions on test images:
 ### 🖼️ Example 3: Power Supply  
 ![Power Supply Prediction](assets/outputs/power_result.png)
 
-> 📌 Make sure to upload your output images inside the folder: `assets/outputs/`
+>  Make sure to upload your output images inside the folder: `assets/outputs/`
 
 ---
 
@@ -107,26 +107,8 @@ Below are some output examples of model predictions on test images:
 
 Here is an example code snippet used in Colab to test the uploaded model on a test image:
 
-```python
-from keras.models import load_model
-from PIL import Image
-import numpy as np
-
-# Load model and labels
-model = load_model('keras_model.h5')
-labels = open('labels.txt', 'r').read().splitlines()
-
-# Load and preprocess image
-img = Image.open('test_images/example.jpg').resize((224, 224))
-img_array = np.asarray(img).astype(np.float32) / 255.0
-img_array = np.expand_dims(img_array, axis=0)
-
-# Predict
-prediction = model.predict(img_array)
-predicted_index = np.argmax(prediction)
-predicted_label = labels[predicted_index]
-
-print(f"Predicted class: {predicted_label}")
+![code](code.png)
+![code](output.png)
 
 
 
