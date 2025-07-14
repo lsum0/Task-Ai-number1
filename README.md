@@ -73,7 +73,7 @@ The following files were utilized during testing:
 Below are some output examples of model predictions on test images:
 
 ### 🖼️ Example 1: GPU  
-![GPU Prediction](GPUPhoto.png)
+![GPU Prediction](GPU%20Photo.png)
 
 ### 🖼️ Example 2: Arduino  
 ![Arduino Prediction](PhotoArdouino.png)
