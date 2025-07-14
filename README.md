@@ -52,7 +52,7 @@ Predictions were mapped using the label index file `labels.txt` as follows:
 
 
 
-### 🟢 Output Evaluation
+### Output Evaluation
 - The model returned probability scores for each class.
 - The class with the highest probability was selected as the final prediction.
 
