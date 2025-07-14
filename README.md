@@ -1,4 +1,4 @@
-<img width="259" height="194" alt="image" src="https://github.com/user-attachments/assets/4ebaac5f-c972-4350-8687-4e6aff6e5340" /># Hardware Components Classification using Teachable Machine
+
 
 ## 1. Project Description
 This project involves developing a machine learning model to classify various computer hardware components using images. The classification task includes identifying devices such as:
