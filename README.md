@@ -73,14 +73,12 @@ The following files were utilized during testing:
 Below are some output examples of model predictions on test images:
 
 ### 🖼️ Example 1: GPU  
-![GPU Prediction](https://www.google.com/imgres?q=gpu&imgurl=https%3A%2F%2Fwww.hellotech.com%2Fblog%2Fwp-content%2Fuploads%2F2020%2F02%2FGaming-GeForce.jpg&imgrefurl=https%3A%2F%2Fwww.hellotech.com%2Fblog%2Fwhats-a-gpu-what-gpu-do-you-have%3Fsrsltid%3DAfmBOooREoFUCoT7hANhufEtANDUKy5iVeHliPLn_qxFUMtOdFzGy2HE&docid=RfwZ5a9xD5799M&tbnid=6Gpud76RIDsZtM&vet=12ahUKEwjPo53O37yOAxVk87sIHQFzFpcQM3oECFsQAA..i&w=1230&h=825&hcb=2&ved=2ahUKEwjPo53O37yOAxVk87sIHQFzFpcQM3oECFsQAA)
+![GPU Prediction](ardoino.png)
 
 ### 🖼️ Example 2: Arduino  
-![Arduino Prediction](https://www.google.com/imgres?q=اردوينو&imgurl=https%3A%2F%2Farabdars.com%2Fwp-content%2Fuploads%2FArduino-400x400.jpg&imgrefurl=https%3A%2F%2Farabdars.com%2Fproduct-category%2F%25D8%25A7%25D8%25B1%25D8%25AF%25D9%2588%25D9%258A%25D9%2586%25D9%2588-arduino%2F&docid=sDCoQfoGg2FgFM&tbnid=QPRVux7swL7KHM&vet=12ahUKEwi70rOy37yOAxXB9LsIHa-DNO4QM3oECBYQAA..i&w=400&h=400&hcb=2&ved=2ahUKEwi70rOy37yOAxXB9LsIHa-DNO4QM3oECBYQAA)
-
+![Arduino Prediction](ardoino.png)
 ### 🖼️ Example 3: Power Supply  
-![Power Supply Prediction](https://media.rs-online.com/image/upload/bo_1.5px_solid_white,b_auto,c_pad,dpr_2,f_auto,h_399,q_auto,w_710/c_pad,h_399,w_710/Y2420547-01?pgw=1)
-
+![Power Supply Prediction](powersup.png)
 >  Make sure to upload your output images inside the folder: `assets/outputs/`
 
 ---
