@@ -76,9 +76,9 @@ Below are some output examples of model predictions on test images:
 ![GPU Prediction](GPU%20Photo.png)
 
 ### 🖼️ Example 2: Arduino  
-![Arduino Prediction](PhotoArdouino.png)
+![Arduino Prediction](Photo%20Ardouino.png)
 ### 🖼️ Example 3: Power Supply  
-![Power Supply Prediction](PhotoPowersuply.png)
+![Power Supply Prediction](Photo%20Powersuply.png)
 >  Make sure to upload your output images inside the folder: `assets/outputs/`
 
 ---
