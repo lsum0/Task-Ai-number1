@@ -107,8 +107,8 @@ Below are some output examples of model predictions on test images:
 
 Here is an example code snippet used in Colab to test the uploaded model on a test image:
 
-![code](code.png)
-![code](output.png)
+![code](code.jpeg)
+![code](output.jpeg)
 
 
 
