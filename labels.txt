@@ -1,0 +1,5 @@
+0 RAM
+1 CPU
+2 Arduino
+3 GPU
+4 Power Supply
